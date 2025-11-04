@@ -118,7 +118,7 @@ const scrollToSection = (sectionId) => {
   color: #ffffff;
 }
 
-/* Toggle oculto en desktop */
+
 .navbar-toggle {
   display: none;
   background: transparent;
