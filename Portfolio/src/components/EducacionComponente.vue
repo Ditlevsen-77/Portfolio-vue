@@ -25,7 +25,6 @@ const educacion = ref([
     institucion: "Universidad Tecnológica Nacional (UTN) - Facultad Regional San Rafael",
     periodo: "2025 - Actualidad",
     descripcion: "Carrera de Programación - Segundo año",
-    logo: "/src/assets/images/Logo.png"
   }
 ])
 </script>
