@@ -37,7 +37,7 @@ const educacion = ref([
       <div v-for="edu in educacion" :key="edu.nivel" class="educacion-item">
         <div class="educacion-header">
           <h3>{{ edu.nivel }}</h3>
-          <img v-if="edu.logo" :src="edu.logo.replace('/src/', './src/')" :alt="edu.institucion" class="institucion-logo" />
+          <img v-if="edu.logo" :src="edu.logo" :alt="edu.institucion" class="institucion-logo" />
         </div>
         <p class="institucion">{{ edu.institucion }}</p>
         <p class="periodo">{{ edu.periodo }}</p>
