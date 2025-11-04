@@ -115,7 +115,7 @@ const intereses = ref([
   }
 }
 
-/* Animación de entrada para los elementos */
+
 .interes-item {
   animation: slideInUp 0.6s ease-out;
 }
