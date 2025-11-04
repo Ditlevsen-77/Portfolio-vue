@@ -197,7 +197,7 @@ const proyectos = ref([
   }
 }
 
-/* Animación de entrada */
+
 .proyecto-item {
   animation: slideInUp 0.6s ease-out;
 }
@@ -217,4 +217,5 @@ const proyectos = ref([
   }
 }
 </style>
+
 
