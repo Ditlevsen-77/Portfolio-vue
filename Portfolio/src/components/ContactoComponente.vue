@@ -177,7 +177,7 @@ const contactos = ref([
   }
 }
 
-/* Animación de entrada */
+
 .contacto-item {
   animation: slideInUp 0.6s ease-out;
 }
