@@ -89,7 +89,7 @@
   }
 }
 
-/* Animación adicional para movimiento más fluido */
+
 .blob-1 {
   animation: lava-flow 12s ease-in-out infinite;
 }
@@ -110,7 +110,7 @@
   animation: lava-flow 11s ease-in-out infinite;
 }
 
-/* Efecto de pulsación */
+
 @keyframes pulse {
   0%, 100% {
     opacity: 0.6;
@@ -124,7 +124,7 @@
   animation: lava-flow 8s ease-in-out infinite, pulse 4s ease-in-out infinite;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .lava-blob {
     filter: blur(30px);
