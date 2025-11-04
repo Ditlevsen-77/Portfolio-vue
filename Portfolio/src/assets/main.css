@@ -1,0 +1,58 @@
+@import './base.css';
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  background-color: #1a1a1a;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--vt-c-white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app, .portfolio {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+html, body {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
