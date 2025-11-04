@@ -25,7 +25,7 @@ const contactos = ref([
   },
   {
     tipo: "Portfolio",
-    valor: "Dirección al Perfil del Profesor Dante Martinez",
+    valor: "Dirección al Perfil del Tutor Dante Martinez",
     url: "https://github.com/mzadante",
     icono: "🌐",
     color: "#42b883"
